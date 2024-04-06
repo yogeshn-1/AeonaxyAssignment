@@ -30,7 +30,7 @@ const Header = () => {
           <a href="#" className="hover:text-blue-400">
             Login
           </a>
-          <button className="px-2 py-1 mx-2 bg-blue-500 rounded-2xl w-fit">
+          <button className="py-3 px-6 mx-2 bg-blue-500 hover:bg-blue-700 text-white rounded-full w-fit duration-200">
             Get Started
           </button>
         </div>

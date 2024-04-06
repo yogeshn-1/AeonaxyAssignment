@@ -13,9 +13,31 @@ p {
 body {
   background: white;
 }
-#intro {
+
+#intro,
+.feature {
   font-family: "Reddit Mono", monospace, Arial, Helvetica, sans-serif;
 }
-.feature:nth-of-type(even) .feature__content {
+.feature:nth-of-type(even) .feature_content {
   order: 2;
+}
+
+.feature .title_text {
+  color: #1a2f44;
+}
+.feature .content_text {
+  color: #485564;
+}
+.feature_title {
+  text-transform: uppercase;
+  color: #1c61ce;
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
