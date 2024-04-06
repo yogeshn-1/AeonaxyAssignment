@@ -3,7 +3,7 @@ import logo from "../img/logo.svg";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="w-full bg-white">
+    <nav className="w-full">
       <div className="p-3 flex items-center justify-between mx-auto max-w-7xl relative">
         <img alt="Calendly logo" className="h-8" src={logo} />
         <div className="flex gap-4 md:hidden xs:hidden sm:hidden">
