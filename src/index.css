@@ -15,17 +15,24 @@ body {
 }
 
 #intro,
-.feature {
-  font-family: "Reddit Mono", monospace, Arial, Helvetica, sans-serif;
+.feature,
+.it_feature {
+  font-family: monospace, Arial, Helvetica, sans-serif;
 }
+
 .feature:nth-of-type(even) .feature_content {
   order: 2;
 }
 
-.feature .title_text {
+.it_feature:nth-of-type(odd) .feature_content {
+  order: 2;
+}
+
+.title_text,
+.feature_subtitle_text {
   color: #1a2f44;
 }
-.feature .content_text {
+.content_text {
   color: #485564;
 }
 .feature_title {

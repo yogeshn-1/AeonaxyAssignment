@@ -2,9 +2,9 @@ import React from "react";
 import agri from "../img/AgriWebb.svg";
 import virtru from "../img/Virtru.svg";
 import lyft from "../img/Lyft.svg";
-import scale from "../img/virtual-assistant.svg";
-import automate from "../img/Automate.svg";
-import integration from "../img/Calendly-Real-Time-Availaility.png";
+import audit from "../img/Calendly-Collab-with-control.png";
+import automate from "../img/Calendly-IT-workflows__2_.png";
+import integration from "../img/Wrapper__2_.png";
 
 const Introduction = () => {
   return (
@@ -42,26 +42,26 @@ const Introduction = () => {
           </li>
         </ul>
       </div>
-      <article className="flex justify-around items-center my-3 feature ">
+      <article className="flex justify-around items-center my-3 py-8 feature ">
         <div className=" flex flex-col gap-4 w-1/3 feature_content">
-          <h2 className="text-xl font-bold">
+          <h2 className="text-2xl font-bold">
             Retain controls as your team scales
           </h2>
-          <p className="content_text">
+          <p className="text-lg content_text">
             Working within one organizational account ensures yousecurely
-            account for all active users as you scale. WithCalendly, IT teams
-            can maintain more oversight overaccount access and individual
-            permissions, as well asaudit activity at any time.
+            account for all active users as you scale. With Calendly, IT teams
+            can maintain more oversight over account access and individual
+            permissions, as well as audit activity at any time.
           </p>
         </div>
-        <img src={scale} alt="" className="w-1/3" />
+        <img src={audit} alt="" className="w-1/3" />
       </article>
-      <article className="flex justify-around items-center my-3 bg-[#F8F8F8] feature">
+      <article className="flex justify-around items-center my-3 py-8 bg-[#F8F8F8]  feature">
         <div className="flex flex-col gap-4 w-1/3 feature_content">
-          <h2 className="text-xl font-bold">
+          <h2 className="text-2xl font-bold">
             Automate IT workflows to accomplish more
           </h2>
-          <p className="content_text">
+          <p className="text-lg content_text">
             Calendly's advanced security integrations overlayseamlessly with
             your corporate authentication policies andprovisioning workflows. IT
             admins save time and reduce riskawith auto-provisioning and
@@ -70,12 +70,12 @@ const Introduction = () => {
         </div>
         <img src={automate} alt="" className="w-1/3" />
       </article>
-      <article className="flex justify-around items-center my-3 feature ">
+      <article className="flex justify-around items-center my-3 py-8 feature ">
         <div className="flex flex-col gap-4 w-1/3 feature_content">
-          <h2 className="text-xl font-bold">
+          <h2 className="text-2xl font-bold">
             Get more value from your existing technology
           </h2>
-          <p className="content_text">
+          <p className="text-lg content_text">
             Calendly securely integrates with the tools your teams relyon every
             day. This includes seamless OAuth throughGoogle Calendar and
             Office365 as well as integrationsacross leading video conferencing
