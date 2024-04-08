@@ -4,7 +4,7 @@ import Hero from "./component/Hero";
 import Features from "./component/Features";
 function App() {
   return (
-    <div className="h-screen">
+    <div className="min-h-screen">
       <Header />
       <Hero />
       <Introduction />

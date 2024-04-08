@@ -25,8 +25,8 @@ const Features = () => {
           </button>
         </div>
       </div>
-      <article className="flex justify-around items-center my-3 it_feature sm:flex-col ">
-        <div className="flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col ">
+        <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">User pii data deletion</h2>
           <h2 className="text-2xl font-bold feature_subtitle_text">
             Maintain GDPR Compliance
@@ -37,10 +37,10 @@ const Features = () => {
             user data as needed.
           </p>
         </div>
-        <img src={privacy} alt="" className="w-1/3" />
+        <img src={privacy} alt="" className="w-1/3 sm:w-1/2 xs:w-1/2" />
       </article>
-      <article className="flex justify-around items-center my-3 it_feature sm:flex-col ">
-        <div className="flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col">
+        <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">User group</h2>
           <h2 className="text-2xl font-bold feature_subtitle_text">
             Save time with group admins
@@ -50,10 +50,10 @@ const Features = () => {
             users, processes, and other account settings.
           </p>
         </div>
-        <img src={userGroups} alt="" className="w-1/3" />
+        <img src={userGroups} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
-      <article className="flex justify-around items-center my-3 it_feature sm:flex-col ">
-        <div className="flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col">
+        <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">Single sign-on (SSo)</h2>
           <h2 className="text-2xl font-bold feature_subtitle_text">
             Reduce risk with secure authentication
@@ -64,10 +64,10 @@ const Features = () => {
             Auth0.
           </p>
         </div>
-        <img src={sso} alt="" className="w-1/3" />
+        <img src={sso} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
-      <article className="flex justify-around items-center my-3 it_feature sm:flex-col ">
-        <div className="flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col">
+        <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">Scim Provisioning</h2>
           <h2 className="text-2xl font-bold feature_subtitle_text">
             Manage user access at scale
@@ -78,7 +78,7 @@ const Features = () => {
             Microsoft Azure.
           </p>
         </div>
-        <img src={scim} alt="" className="w-1/3" />
+        <img src={scim} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
     </>
   );

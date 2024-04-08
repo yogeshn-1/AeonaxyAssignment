@@ -20,30 +20,30 @@ const Introduction = () => {
         </p>
       </div>
       <div className=" bg-[#F7FAFF] w-full">
-        <ul className=" flex gap-2 justify-evenly max-w-7xl mx-auto py-10">
-          <li className="flex flex-col gap-3">
+        <ul className=" flex gap-2 justify-between max-w-5xl mx-auto py-10 px-4 xs:flex-col xs:gap-8 ">
+          <li className="flex flex-col gap-3 w-fit xs:border-b xs:border-r-0 xs:pb-4 border-r-2">
             <span className="text-3xl font-bold">75%</span>
-            <p className="w-3/4 text-lg">
+            <p className="text-lg">
               reduction in time to schedule customer success
             </p>
             <img src={agri} alt="" className="w-8 inline-block" />
           </li>{" "}
-          <li className="flex flex-col gap-3">
+          <li className="flex flex-col gap-3 w-fit xs:border-b xs:border-r-0 xs:pb-4 border-r-2">
             <span className="text-3xl font-bold">200%</span>
-            <p className="w-3/4 text-lg">
+            <p className=" text-lg">
               increase in connections between sales and customer leads
             </p>
             <img src={virtru} alt="" className="w-14 inline-block" />
           </li>
-          <li className="flex flex-col gap-3">
+          <li className="flex flex-col gap-3 w-fit">
             <span className="text-3xl font-bold">75%</span>
-            <p className="w-3/4 text-lg">more customers onboarded per month</p>
+            <p className="text-lg">more customers onboarded per month</p>
             <img src={lyft} alt="" className="w-8 inline-block" />
           </li>
         </ul>
       </div>
-      <article className="flex justify-around items-center my-3 py-8 feature ">
-        <div className=" flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 py-8 feature sm:flex-col xs:flex-col ">
+        <div className=" flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="text-2xl font-bold">
             Retain controls as your team scales
           </h2>
@@ -54,10 +54,10 @@ const Introduction = () => {
             permissions, as well as audit activity at any time.
           </p>
         </div>
-        <img src={audit} alt="" className="w-1/3" />
+        <img src={audit} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
-      <article className="flex justify-around items-center my-3 py-8 bg-[#F8F8F8]  feature">
-        <div className="flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 py-8 bg-[#F8F8F8]  feature sm:flex-col xs:flex-col">
+        <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="text-2xl font-bold">
             Automate IT workflows to accomplish more
           </h2>
@@ -68,10 +68,10 @@ const Introduction = () => {
             deprovisioning via SCIM andSingle Sign-On (SSO).
           </p>
         </div>
-        <img src={automate} alt="" className="w-1/3" />
+        <img src={automate} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
-      <article className="flex justify-around items-center my-3 py-8 feature ">
-        <div className="flex flex-col gap-4 w-1/3 feature_content">
+      <article className="flex justify-around items-center my-3 py-8 feature sm:flex-col xs:flex-col">
+        <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="text-2xl font-bold">
             Get more value from your existing technology
           </h2>
@@ -82,7 +82,7 @@ const Introduction = () => {
             tools (Zoom, GoogleMeet, Microsoft Teams, Webex), and more.
           </p>
         </div>
-        <img src={integration} alt="" className="w-1/3" />
+        <img src={integration} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
     </section>
   );
