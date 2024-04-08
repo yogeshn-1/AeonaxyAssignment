@@ -2,6 +2,7 @@ import Introduction from "./component/Introduction";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import Features from "./component/Features";
+import Testimonial from "./component/Testimonial";
 function App() {
   return (
     <div className="min-h-screen">
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Introduction />
       <Features />
+      <Testimonial />
     </div>
   );
 }

@@ -16,7 +16,7 @@ body {
 
 #intro,
 .feature,
-.it_feature {
+.it_feature .testimonial {
   font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
