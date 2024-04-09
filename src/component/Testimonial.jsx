@@ -27,7 +27,7 @@ const Testimonial = () => {
               alt=""
             />
           </div>
-          <div className="flex flex-col gap-2 px-4 py-2">
+          <div className="flex flex-col gap-2 px-4 py-2 mb-4">
             <h2 className="text-blue-500 ">Customer story</h2>
             <p className="text-lg font-mono content_text">
               Stack Overflow's streamlined admin forges relationships with new
@@ -48,7 +48,7 @@ const Testimonial = () => {
           >
             <img src={texas} className="relative top-2 left-4 w-12" alt="" />
           </div>
-          <div className="flex flex-col gap-2 px-4 py-2">
+          <div className="flex flex-col gap-2 px-4 py-2 mb-4">
             <h2 className="text-blue-500 ">Customer story</h2>
             <p className="text-lg font-mono content_text">
               University of Texas at Austin saves money through administrative
@@ -69,7 +69,7 @@ const Testimonial = () => {
           >
             <img src={bitly} className="relative top-2 left-4 w-20" alt="" />
           </div>
-          <div className="flex flex-col gap-2 px-4 py-2 ">
+          <div className="flex flex-col gap-2 px-4 py-2 mb-4">
             <h2 className="text-blue-500 ">Customer story</h2>
             <p className="text-lg font-mono content_text">
               More meetings, better prospects boost Bitly's conversions across

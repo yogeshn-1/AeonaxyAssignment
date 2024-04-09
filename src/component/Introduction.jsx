@@ -48,7 +48,7 @@ const Introduction = () => {
             Retain controls as your team scales
           </h2>
           <p className="text-lg content_text">
-            Working within one organizational account ensures yousecurely
+            Working within one organizational account ensures you securely
             account for all active users as you scale. With Calendly, IT teams
             can maintain more oversight over account access and individual
             permissions, as well as audit activity at any time.
@@ -62,9 +62,9 @@ const Introduction = () => {
             Automate IT workflows to accomplish more
           </h2>
           <p className="text-lg content_text">
-            Calendly's advanced security integrations overlayseamlessly with
-            your corporate authentication policies andprovisioning workflows. IT
-            admins save time and reduce riskawith auto-provisioning and
+            Calendly's advanced security integrations overlay seamlessly with
+            your corporate authentication policies and provisioning workflows.
+            IT admins save time and reduce riskawith auto-provisioning and
             deprovisioning via SCIM andSingle Sign-On (SSO).
           </p>
         </div>
@@ -77,8 +77,8 @@ const Introduction = () => {
           </h2>
           <p className="text-lg content_text">
             Calendly securely integrates with the tools your teams relyon every
-            day. This includes seamless OAuth throughGoogle Calendar and
-            Office365 as well as integrationsacross leading video conferencing
+            day. This includes seamless OAuth through Google Calendar and
+            Office365 as well as integrations across leading video conferencing
             tools (Zoom, GoogleMeet, Microsoft Teams, Webex), and more.
           </p>
         </div>
