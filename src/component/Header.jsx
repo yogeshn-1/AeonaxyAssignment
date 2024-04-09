@@ -7,27 +7,40 @@ const Header = () => {
       <div className="px-6 py-4 flex items-center justify-between ">
         <img alt="Calendly logo" className="h-8 " src={logo} />
         <div className="flex gap-4 md:hidden xs:hidden sm:hidden">
-          <a href="#" className="hover:text-blue-400 ">
+          <a href="" className="hover:text-blue-400 ">
             Individuals
           </a>
-          <a href="#" className="hover:text-blue-400 ">
+          <a href="" className="hover:text-blue-400 ">
             Teams
           </a>
-          <a href="#" className="hover:text-blue-400 ">
+          <a href="" className="hover:text-blue-400 ">
             Enterprises
           </a>
-          <a href="#" className="hover:text-blue-400 ">
-            Product
+          <a href="" className="group relative">
+            <span className="hover:text-blue-400">Products &raquo;</span>
+            <ul className="group-hover:flex flex-col hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
+              <li className="hover:text-blue-400">Marketing</li>
+              <li className="hover:text-blue-400">Sales</li>
+              <li className="hover:text-blue-400">Information Technology</li>
+              <li className="hover:text-blue-400">Education</li>
+              <li className="hover:text-blue-400">Recruiting</li>
+            </ul>
           </a>
-          <a href="#" className="hover:text-blue-400 ">
+          <a href="" className="hover:text-blue-400 ">
             Pricing
           </a>
-          <a href="#" className="hover:text-blue-400 ">
-            Resource
+          <a href="" className="group relative">
+            <span className="hover:text-blue-400 ">Resources &raquo;</span>
+            <ul className="group-hover:flex flex-col hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
+              <li className="hover:text-blue-400">E-Books</li>
+              <li className="hover:text-blue-400">Webinar</li>
+              <li className="hover:text-blue-400">Blog</li>
+              <li className="hover:text-blue-400">Video Tutorials</li>
+            </ul>
           </a>
         </div>
         <div className="md:hidden xs:hidden sm:hidden">
-          <a href="#" className="hover:text-blue-400">
+          <a href="" className="hover:text-blue-400">
             Login
           </a>
           <button className="py-2 px-5 mx-2 bg-blue-500 hover:bg-blue-700 text-white rounded-full w-fit duration-200">
