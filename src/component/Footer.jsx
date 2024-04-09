@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import playstore from "../img/Playstore.png";
 import appstore from "../img/AppleappStore.png";
+import facebook from "../img/icons8-facebook.svg";
+import twitter from "../img/icons8-twitter.svg";
+import insta from "../img/icons8-instagram.svg";
+import ytube from "../img/icons8-youtube.svg";
+import linkedin from "../img/icons8-linkedin.svg";
 
 const Footer = () => {
   return (
@@ -23,6 +28,13 @@ const Footer = () => {
           <div className="flex gap-2 w-20">
             <img src={appstore} alt="get it on app store " />
             <img src={playstore} alt="get it on playstore" />
+          </div>
+          <div className="flex gap-3">
+            <img src={facebook} alt="" className="w-8" />
+            <img src={twitter} alt="" className="w-8" />
+            <img src={insta} alt="" className="w-8" />
+            <img src={linkedin} alt="" className="w-8" />
+            <img src={ytube} alt="" className="w-10" />
           </div>
         </section>
         <section className="grid grid-cols-3 xs:grid-cols-1 sm:grid-cols-2 gap-4 px-3 ms-10 flex-1">
