@@ -18,7 +18,7 @@ const Header = () => {
           </a>
           <a href="" className="group relative">
             <span className="hover:text-blue-400">Products &raquo;</span>
-            <ul className="group-hover:flex flex-col hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
+            <ul className="group-hover:flex flex-col gap-2 hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
               <li className="hover:text-blue-400">Marketing</li>
               <li className="hover:text-blue-400">Sales</li>
               <li className="hover:text-blue-400">Information Technology</li>
@@ -31,7 +31,7 @@ const Header = () => {
           </a>
           <a href="" className="group relative">
             <span className="hover:text-blue-400 ">Resources &raquo;</span>
-            <ul className="group-hover:flex flex-col hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
+            <ul className="group-hover:flex flex-col gap-2 hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
               <li className="hover:text-blue-400">E-Books</li>
               <li className="hover:text-blue-400">Webinar</li>
               <li className="hover:text-blue-400">Blog</li>

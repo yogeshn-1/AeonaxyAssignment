@@ -6,13 +6,13 @@ import sso from "../img/Calendly-Secure-User-Management-2__1_.png";
 
 const Features = () => {
   return (
-    <>
+    <section className="px-2 my-8">
       <div className="flex flex-col gap-4 items-center">
         <h4 className="text-lg feature_title">Calendly Features</h4>
-        <h5 className="text-4xl font-bold title_text">
+        <h5 className=" text-4xl sm:text-3xl xs:text-2xl font-bold title_text">
           Favourite Security Features
         </h5>
-        <h3 className="max-w-3xl text-3xl text-center font-thin content_text">
+        <h3 className="max-w-3xl text-3xl sm:text-2xl xs:text-xl text-center font-thin content_text">
           Here's a close look at some of the security features IT admins enjoy
           with calendly
         </h3>
@@ -28,10 +28,10 @@ const Features = () => {
       <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col ">
         <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">User pii data deletion</h2>
-          <h2 className="text-2xl font-bold feature_subtitle_text">
+          <h2 className="text-2xl sm:text-xl xs:text-xl font-bold feature_subtitle_text">
             Maintain GDPR Compliance
           </h2>
-          <p className="text-lg content_text">
+          <p className="text-lg sm:text-base xs:text-base content_text">
             Stay compliant with privacy rules and regulations at scale with
             self-service data deletion, which allows admins to immediately erase
             user data as needed.
@@ -42,10 +42,10 @@ const Features = () => {
       <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col">
         <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">User group</h2>
-          <h2 className="text-2xl font-bold feature_subtitle_text">
+          <h2 className="text-2xl sm:text-xl xs:text-xl font-bold feature_subtitle_text">
             Save time with group admins
           </h2>
-          <p className="text-lg content_text">
+          <p className="text-lg sm:text-base xs:text-base content_text">
             Delegate specific team members with group admin privileges to manage
             users, processes, and other account settings.
           </p>
@@ -55,10 +55,10 @@ const Features = () => {
       <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col">
         <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">Single sign-on (SSo)</h2>
-          <h2 className="text-2xl font-bold feature_subtitle_text">
+          <h2 className="text-2xl sm:text-xl xs:text-xl font-bold feature_subtitle_text">
             Reduce risk with secure authentication
           </h2>
-          <p className="text-lg content_text">
+          <p className="text-lg sm:text-base xs:text-base content_text">
             Deploy Calendly confidently with support for SAML based SSO with
             leading identity providers Okta,Ping Identity, Azure, OneLogin, and
             Auth0.
@@ -69,10 +69,10 @@ const Features = () => {
       <article className="flex justify-around items-center my-3 it_feature sm:flex-col xs:flex-col">
         <div className="flex flex-col gap-4 w-1/3 xs:w-full sm:w-full xs:p-2 sm:p-2 sm:gap-2 xs:gap-2 feature_content">
           <h2 className="feature_title">Scim Provisioning</h2>
-          <h2 className="text-2xl font-bold feature_subtitle_text">
+          <h2 className="text-2xl sm:text-xl xs:text-xl font-bold feature_subtitle_text">
             Manage user access at scale
           </h2>
-          <p className="text-lg content_text">
+          <p className="text-lg sm:text-base xs:text-base content_text">
             Efficiently onboard and off-board employees with automatic
             provisioning and de-provisioning viaSCIM with Okta, OneLogin, and
             Microsoft Azure.
@@ -80,7 +80,7 @@ const Features = () => {
         </div>
         <img src={scim} alt="" className="w-1/3 sm:w-1/2 xs:w-3/4" />
       </article>
-    </>
+    </section>
   );
 };
 

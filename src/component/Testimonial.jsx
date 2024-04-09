@@ -6,12 +6,12 @@ import texas from "../img/UTAustin.svg";
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col gap-4 items-center testimonial">
+    <div className="px-2 my-8 flex flex-col gap-4 items-center testimonial">
       <h4 className="text-lg feature_title">Success Stories</h4>
-      <h5 className="text-4xl font-bold title_text">
+      <h5 className="text-4xl sm:text-3xl xs:text-2xl font-bold title_text">
         Do more of what you do best
       </h5>
-      <h3 className="max-w-3xl text-3xl text-center font-thin content_text">
+      <h3 className="max-w-3xl text-3xl sm:text-2xl xs:text-xl text-center font-thin content_text">
         Eliminate scheduling hassels and interruptions so your organization
         accomplishes more.
       </h3>
