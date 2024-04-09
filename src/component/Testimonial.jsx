@@ -15,7 +15,7 @@ const Testimonial = () => {
         Eliminate scheduling hassels and interruptions so your organization
         accomplishes more.
       </h3>
-      <section className="flex gap-6 w-3/4 mx-auto lg:px-2 px-6 py-2 sm:flex-col xs:flex-col ">
+      <section className="flex gap-6 w-3/4 mx-auto lg:px-2 px-6 py-2 sm:flex-col xs:flex-col xs:w-full ">
         <article className="flex flex-col gap-2 shadow-lg ">
           <div
             className="w-full h-[200px]"

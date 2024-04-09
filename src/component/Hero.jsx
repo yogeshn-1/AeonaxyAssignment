@@ -13,7 +13,7 @@ const Hero = () => {
             Bring your temas together in a centrally-managed ecosystem with
             complete oversight and visibility
           </p>
-          <button className="p-3 bg-blue-500 rounded-2xl w-fit ">
+          <button className="p-3 bg-blue-500 hover:bg-blue-700 rounded-2xl w-fit duration-200 ">
             Contact sales
           </button>
         </section>
