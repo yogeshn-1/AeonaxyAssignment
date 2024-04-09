@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import Features from "./component/Features";
 import Testimonial from "./component/Testimonial";
 import Callout from "./component/Callout";
+import Footer from "./component/Footer";
 function App() {
   return (
     <div className="min-h-screen">
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <Testimonial />
       <Callout />
+      <Footer />
     </div>
   );
 }
