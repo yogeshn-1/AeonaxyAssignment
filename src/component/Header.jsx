@@ -7,37 +7,41 @@ const Header = () => {
       <div className="px-6 py-4 flex items-center justify-between ">
         <img alt="Calendly logo" className="h-8 " src={logo} />
         <div className="flex gap-4 md:hidden xs:hidden sm:hidden">
-          <a href="" className="hover:text-blue-400 ">
+          <span className="hover:text-blue-400 cursor-pointer ">
             Individuals
-          </a>
-          <a href="" className="hover:text-blue-400 ">
-            Teams
-          </a>
-          <a href="" className="hover:text-blue-400 ">
+          </span>
+          <span className="hover:text-blue-400 cursor-pointer">Teams</span>
+          <span className="hover:text-blue-400 cursor-pointer">
             Enterprises
-          </a>
-          <a href="" className="group relative">
-            <span className="hover:text-blue-400">Products &raquo;</span>
+          </span>
+          <span className="group relative">
+            <span className="hover:text-blue-400 cursor-pointer">
+              Products &raquo;
+            </span>
             <ul className="group-hover:flex flex-col gap-2 hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
-              <li className="hover:text-blue-400">Marketing</li>
-              <li className="hover:text-blue-400">Sales</li>
-              <li className="hover:text-blue-400">Information Technology</li>
-              <li className="hover:text-blue-400">Education</li>
-              <li className="hover:text-blue-400">Recruiting</li>
+              <li className="hover:text-blue-400 cursor-pointer">Marketing</li>
+              <li className="hover:text-blue-400 cursor-pointer">Sales</li>
+              <li className="hover:text-blue-400 cursor-pointer">
+                Information Technology
+              </li>
+              <li className="hover:text-blue-400 cursor-pointer">Education</li>
+              <li className="hover:text-blue-400 cursor-pointer">Recruiting</li>
             </ul>
-          </a>
-          <a href="" className="hover:text-blue-400 ">
-            Pricing
-          </a>
-          <a href="" className="group relative">
-            <span className="hover:text-blue-400 ">Resources &raquo;</span>
+          </span>
+          <span className="hover:text-blue-400 cursor-pointer ">Pricing</span>
+          <span className="group relative">
+            <span className="hover:text-blue-400 cursor-pointer ">
+              Resources &raquo;
+            </span>
             <ul className="group-hover:flex flex-col gap-2 hidden p-4 absolute z-20 bg-[#fafafa] w-[200px] rounded-lg shadow-lg ">
-              <li className="hover:text-blue-400">E-Books</li>
-              <li className="hover:text-blue-400">Webinar</li>
-              <li className="hover:text-blue-400">Blog</li>
-              <li className="hover:text-blue-400">Video Tutorials</li>
+              <li className="hover:text-blue-400 cursor-pointer">E-Books</li>
+              <li className="hover:text-blue-400 cursor-pointer">Webinar</li>
+              <li className="hover:text-blue-400 cursor-pointer">Blog</li>
+              <li className="hover:text-blue-400 cursor-pointer">
+                Video Tutorials
+              </li>
             </ul>
-          </a>
+          </span>
         </div>
         <div className="md:hidden xs:hidden sm:hidden">
           <a href="" className="hover:text-blue-400">
