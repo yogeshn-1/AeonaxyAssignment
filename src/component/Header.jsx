@@ -68,7 +68,7 @@ const Header = () => {
       </div>
       <div
         className={`${
-          isMenuOpen ? "hidden" : "flex"
+          isMenuOpen ? "flex" : "hidden"
         } w-full p-4 min-h-fit text-sm bg-white rounded-xl flex-col shadow-xl absolute right-0 top-0 z-10 lg:hidden xl:hidden `}
       >
         <img alt="Calendly logo" className="h-8 self-start" src={logo} />
